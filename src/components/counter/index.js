@@ -20,7 +20,6 @@ function Counter({ start = 0 }) {
     setText(e.target.value);
   }
   function handleInitialChange() {
-    console.log(text);
     setCounter(Number(text));
     setText('');
   }
