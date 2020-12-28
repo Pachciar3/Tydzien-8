@@ -1,6 +1,6 @@
 import sum from './sum';
 
-describe('testing with jest', () => {
+describe('testing sum with jest', () => {
   it('should sum function return 13', () => {
     const a = 10;
     const b = 3;
